@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Texto</title>
+</head>
+<body>
+    <h1>Exercicio 2</h1>
+    <h4>by - Jeú Victor</h4>
+    <hr>
+    <h2>Principais formatações</h2>
+    <h3>Negrito e destaque</h3>
+    <p>Nesta frase usamos a formatação sem semantica, no caso a <b> tag b. </b> </p>
+    <p>Outro caso é se ysar a semantica, <strong>utilizando a tag STRONG.</strong></p>
+    <br>
+    <h3>Italico ou enfase </h3>
+     <p>Aqui temos <i>um exemplo</i> de italico com a <i>tag i.</i></p>
+    <p>Outra tag, <em>essa com semantica</em>   , para italico é a EM.</p>
+    <br>
+    <h3>Marcar texto</h3>
+    <p>Pode-se criar um <mark style="background-color: rgb(49, 49, 250);">texto marcado</mark> com a tag MARK</p>
+    <br>
+    <h3>Texto grande e pequeno</h3>
+    <p>Utilizando a tag SMALL ou BIG pode <small>diminuir</small> ou <big>aumentar </big> um texto.</p>
+    <br>
+    <h3>Texto excluido e incluídos</h3>
+    <p>Podemos adicionar um texto com a tag DEL para que o usuaria entenda que ele pode ser lido mas não considerado: <del>Exemplo da tag.</del> <br> A outra tag, agora para sublinhar e dá enfase, é a INS: <ins>Exemplo da tag.</ins> Ainda existe a tag U mas é <u>não semantica.</u> </p>
+    <h3>Texto sobrescrito< e subescrito</h3>
+    <p>O texto sobrescrito é para ser utilizando nos casos de potenciação e semelhantes, usamos a tag SUP: exemplo >> x<sup>2</sup>+3. <br> Já o texto subescrito é o oposto, mais utilizado em formulas quimicas, ele pode ser utilizado com a tag SUB: Exemplo >> H<sub>2</sub>O.</p>
+    <hr>
+    <br>
+    <h2>Outras formatações</h2>
+    <h3>Código-fonte</h3>
+    <p>A tag CODE é utilizada para melhor visialuzação das letras, pois todas ocupam o mesmo espaço na formatação, segue o exemplo:O comando <code>document.getElementById('test')</code> é escrito em <strong>JavaScript</strong>. <br> Outra tag importante na hora de escrever linhas de codigos é a PRE, ela permanece a indentação original. Veja o exemplo em <strong>Python</strong>:</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    num = num * num
+    if (num >= 100):
+        total = ' e tem três ou mais casas decimais.'
+    else: 
+        total = ' e tem uma ou duas casas decimais.'
+    print("O numero que você digitou é", num, total)
+        </code>
+    </pre>
+    <p> <small>Pode-se utilizar o shift e TAB para aproximar do texto da margem no vs code.</small> </p>
+    <br>
+    <h3>Citações</h3>
+    <p>A tag Q é a que se deve utilizar para fazer citações em uma pagina, porem ele não faz a quebra de linha. Exemplo: <q>homem é um sujeito social que, por natureza, precisa pertencer a uma coletividade. Somos, portanto, animais comunitários, gregários, sociais e solidários. Aristóteles (384 - 322 a.C.)</q> <br> Outro meio é a tag BLOCKQUOTE, está coloca o texto em uma "indentação", segue o exemplo.</p>
+<blockquote cite="https://books.google.com.br/books?id=JK2WxX8vjGgC&lpg=PA2&ots=65RQR6PS35&dq=%22Sobre%20Verdade%20e%20Mentira%20no%20Sentido%20Extra-Moral%22&lr&hl=pt-BR&pg=PA2#v=onepage&q&f=false">
+    
+    "Não há fatos eternos, como não há verdades absolutas. Por isso, não se deve falar da natureza das coisas, mas apenas da relação entre elas. O que sabemos sobre a verdade não é que ela é verdadeira, mas que ela é o que somos capazes de suportar. Quanto mais forte o indivíduo, mais ele é capaz de suportar a verdade. A verdade, para ser suportada, deve ser constantemente testada e renovada. O que é verdadeiro para um indivíduo pode não ser verdadeiro para outro, e o que é verdadeiro para uma época pode não ser verdadeiro para outra. A verdade é, portanto, sempre uma construção, nunca uma descoberta." - Friedrich Nietzsche, em "Sobre Verdade e Mentira no Sentido Extra-Moral" (1873).
+</blockquote>
+<br>
+<h3>Abreviações</h3>
+<p>A tag ABBR é utilizada em abreviações, no caso o usuario ao passar o mouse em cima da abreviação irá poder ler o nome completo. <abbr title="Exemplo">Ex</abbr> <abbr title="HyperText Markup">HTML</abbr></p>
+<br>
+<h3>Texto invertido</h3>
+<p>A tag BDO é pouca utilizada devido a sua pouca necessidade, ela inverte as palavras. Exemplo >><bdo dir="ltr">subir no onibus</bdo> e <bdo dir="rtl">subir no onibus</bdo></p>
+</body>
+</html>
